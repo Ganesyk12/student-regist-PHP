@@ -1,0 +1,317 @@
+CRITICAL - 2023-07-16 00:33:10 --> Undefined variable $title
+in APPPATH\Views\layouts\admin.php on line 10.
+ 1 APPPATH\Views\layouts\admin.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\layouts\\admin.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\layouts\\admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dashboard', [], true)
+ 6 APPPATH\Controllers\Home.php(13): view('dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-16 01:03:39 --> require(D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\app\Config/Routes.php): Failed to open stream: No such file or directory
+in SYSTEMPATH\Router\RouteCollection.php on line 267.
+ 1 SYSTEMPATH\Router\RouteCollection.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Config/Routes.php): Failed to open stream: No such file or directory', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\vendor\\codeigniter4\\framework\\system\\Router\\RouteCollection.php', 267)
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require()
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-16 03:04:28 --> Undefined variable $siswa
+in APPPATH\Views\datasiswa\index.php on line 28.
+ 1 APPPATH\Views\datasiswa\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\index.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('datasiswa/index', [], true)
+ 5 APPPATH\Controllers\Daftar.php(15): view('datasiswa/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Daftar->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Daftar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-16 03:16:10 --> Undefined variable $siswa
+in APPPATH\Views\datasiswa\index.php on line 29.
+ 1 APPPATH\Views\datasiswa\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('datasiswa/index', [], true)
+ 5 APPPATH\Controllers\Daftar.php(15): view('datasiswa/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Daftar->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Daftar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-16 03:16:29 --> Undefined variable $data
+in APPPATH\Views\datasiswa\index.php on line 29.
+ 1 APPPATH\Views\datasiswa\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('datasiswa/index', [], true)
+ 5 APPPATH\Controllers\Daftar.php(15): view('datasiswa/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Daftar->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Daftar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-16 03:17:38 --> Undefined variable $data
+in APPPATH\Views\datasiswa\index.php on line 29.
+ 1 APPPATH\Views\datasiswa\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('datasiswa/index', [], true)
+ 5 APPPATH\Controllers\Siswa.php(26): view('datasiswa/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-16 09:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-16 09:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-16 09:43:09 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Login.php(8): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+ERROR - 2023-07-16 10:07:59 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`KK`, `Scan` `Akta`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, ...' at line 1 in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `si...', 0)
+#1 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\app\Controllers\Siswa.php(41): CodeIgniter\Model->insert(Array)
+#8 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Siswa->regist()
+#9 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#10 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekst...')
+#13 {main}
+CRITICAL - 2023-07-16 10:07:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`KK`, `Scan` `Akta`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, ...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`, `Scan` `KK`, `Scan` `Akta`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`, `Scan` `KK`, `Scan` `Akta`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`, `Scan` `KK`, `Scan` `Akta`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`, `Scan` `KK`, `Scan` `Akta`) VALUES (:tempat_lahir:, :tgl_lahir:, :jenis_kelamin:, :agama:, :anak:, :jum_sdr:, :alamat:, :telp:, :nama_ortu:, :pekerjaan:, :alamat_ortu:, :Scan KK:, :Scan Akta:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Siswa.php(41): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->regist()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+ERROR - 2023-07-16 10:10:32 --> mysqli_sql_exception: Column 'tempat_lahir' cannot be null in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `si...', 0)
+#1 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\app\Controllers\Siswa.php(41): CodeIgniter\Model->insert(Array)
+#8 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Siswa->regist()
+#9 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#10 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekst...')
+#13 {main}
+CRITICAL - 2023-07-16 10:10:32 --> Column 'tempat_lahir' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (:tempat_lahir:, :tgl_lahir:, :jenis_kelamin:, :agama:, :anak:, :jum_sdr:, :alamat:, :telp:, :nama_ortu:, :pekerjaan:, :alamat_ortu:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Siswa.php(41): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->regist()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+ERROR - 2023-07-16 10:17:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`alamat` VARCHAR(50) NOT NULL,
+	`telp` INT(15) NOT NULL,
+	`nama_or...' at line 10 in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `s...', 0)
+#1 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `s...')
+#2 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `s...')
+#3 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `s...')
+#4 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\app\Database\Migrations\2023-07-16-101728_Siswa.php(29): CodeIgniter\Database\Forge->createTable('siswa')
+#5 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\Siswa->up()
+#6 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-07-16 10:19:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`alamat` VARCHAR(50) NOT NULL,
+	`telp` INT(15) NOT NULL,
+	`nama_or...' at line 10 in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `s...', 0)
+#1 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `s...')
+#2 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `s...')
+#3 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `s...')
+#4 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\app\Database\Migrations\2023-07-16-101728_Siswa.php(29): CodeIgniter\Database\Forge->createTable('siswa')
+#5 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\Siswa->up()
+#6 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-07-16 10:27:56 --> mysqli_sql_exception: Column 'tempat_lahir' cannot be null in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `si...', 0)
+#1 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\app\Controllers\Siswa.php(41): CodeIgniter\Model->insert(Array)
+#8 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Siswa->regist()
+#9 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#10 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekst...')
+#13 {main}
+CRITICAL - 2023-07-16 10:27:56 --> Column 'tempat_lahir' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (:tempat_lahir:, :tgl_lahir:, :jenis_kelamin:, :agama:, :anak:, :jum_sdr:, :alamat:, :telp:, :nama_ortu:, :pekerjaan:, :alamat_ortu:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Siswa.php(41): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->regist()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+ERROR - 2023-07-16 10:39:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`KK`, `Scan` `Akta`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, ...' at line 1 in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `si...', 0)
+#1 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\app\Controllers\Siswa.php(41): CodeIgniter\Model->insert(Array)
+#8 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Siswa->regist()
+#9 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#10 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekst...')
+#13 {main}
+CRITICAL - 2023-07-16 10:39:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`KK`, `Scan` `Akta`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, ...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`, `Scan` `KK`, `Scan` `Akta`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`, `Scan` `KK`, `Scan` `Akta`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`, `Scan` `KK`, `Scan` `Akta`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`, `Scan` `KK`, `Scan` `Akta`) VALUES (:tempat_lahir:, :tgl_lahir:, :jenis_kelamin:, :agama:, :anak:, :jum_sdr:, :alamat:, :telp:, :nama_ortu:, :pekerjaan:, :alamat_ortu:, :Scan KK:, :Scan Akta:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Siswa.php(41): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->regist()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+ERROR - 2023-07-16 10:39:16 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`KK`, `Scan` `Akta`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, ...' at line 1 in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `si...', 0)
+#1 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\app\Controllers\Siswa.php(41): CodeIgniter\Model->insert(Array)
+#8 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Siswa->regist()
+#9 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#10 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekst...')
+#13 {main}
+CRITICAL - 2023-07-16 10:39:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`KK`, `Scan` `Akta`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, ...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`, `Scan` `KK`, `Scan` `Akta`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`, `Scan` `KK`, `Scan` `Akta`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`, `Scan` `KK`, `Scan` `Akta`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`, `Scan` `KK`, `Scan` `Akta`) VALUES (:tempat_lahir:, :tgl_lahir:, :jenis_kelamin:, :agama:, :anak:, :jum_sdr:, :alamat:, :telp:, :nama_ortu:, :pekerjaan:, :alamat_ortu:, :Scan KK:, :Scan Akta:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Siswa.php(41): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->regist()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+ERROR - 2023-07-16 10:40:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`KK`, `Scan` `Akta`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, ...' at line 1 in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `si...', 0)
+#1 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\app\Controllers\Siswa.php(41): CodeIgniter\Model->insert(Array)
+#8 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Siswa->regist()
+#9 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#10 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekst...')
+#13 {main}
+CRITICAL - 2023-07-16 10:40:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`KK`, `Scan` `Akta`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, ...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`, `Scan` `KK`, `Scan` `Akta`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`, `Scan` `KK`, `Scan` `Akta`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`, `Scan` `KK`, `Scan` `Akta`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`, `Scan` `KK`, `Scan` `Akta`) VALUES (:tempat_lahir:, :tgl_lahir:, :jenis_kelamin:, :agama:, :anak:, :jum_sdr:, :alamat:, :telp:, :nama_ortu:, :pekerjaan:, :alamat_ortu:, :Scan KK:, :Scan Akta:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Siswa.php(41): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->regist()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-16 22:38:57 --> Call to undefined function form_open_multipart()
+in APPPATH\Views\pages\form.php on line 27.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/form', [], true)
+ 4 APPPATH\Controllers\Siswa.php(43): view('pages/form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->regist()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-16 22:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-16 22:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-16 22:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-16 22:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

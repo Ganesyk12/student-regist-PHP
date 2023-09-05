@@ -1,0 +1,660 @@
+INFO - 2023-07-24 04:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 04:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 04:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 04:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-24 04:39:37 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'apps', 3306, '', 0)
+#1 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\app\Controllers\Login.php(28): CodeIgniter\BaseModel->first()
+#7 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Login->index()
+#8 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekst...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\app\Controllers\Login.php(28): CodeIgniter\BaseModel->first()
+#6 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Login->index()
+#7 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekst...')
+#11 {main}
+CRITICAL - 2023-07-24 04:39:37 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Login.php(28): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-24 04:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 04:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 04:40:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 04:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 04:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 04:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 04:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 04:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 04:55:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 04:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 04:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 04:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 04:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 04:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 04:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 04:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 05:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 05:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 05:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 05:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-24 05:30:27 --> Undefined variable $row
+in APPPATH\Views\datasiswa\index.php on line 80.
+ 1 APPPATH\Views\datasiswa\index.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\index.php', 80)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('datasiswa/index', [], true)
+ 5 APPPATH\Controllers\Siswa.php(24): view('datasiswa/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-24 05:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 05:32:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 05:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 05:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 05:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-24 05:40:06 --> Undefined variable $siswa
+in APPPATH\Views\pages\edit.php on line 46.
+ 1 APPPATH\Views\pages\edit.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\pages\\edit.php', 46)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\pages\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/edit', [], true)
+ 5 APPPATH\Controllers\Siswa.php(61): view('pages/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->edit('12')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-24 05:41:04 --> Undefined variable $siswa
+in APPPATH\Views\pages\edit.php on line 46.
+ 1 APPPATH\Views\pages\edit.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\pages\\edit.php', 46)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\pages\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/edit', [], true)
+ 5 APPPATH\Controllers\Siswa.php(61): view('pages/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-24 05:41:18 --> Undefined variable $siswa
+in APPPATH\Views\pages\edit.php on line 46.
+ 1 APPPATH\Views\pages\edit.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\pages\\edit.php', 46)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\pages\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/edit', [], true)
+ 5 APPPATH\Controllers\Siswa.php(61): view('pages/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-24 05:41:54 --> Undefined variable $modelSiswa
+in APPPATH\Views\pages\edit.php on line 46.
+ 1 APPPATH\Views\pages\edit.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $modelSiswa', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\pages\\edit.php', 46)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\pages\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/edit', [], true)
+ 5 APPPATH\Controllers\Siswa.php(61): view('pages/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-24 05:45:30 --> Undefined variable $siswa
+in APPPATH\Views\pages\edit.php on line 50.
+ 1 APPPATH\Views\pages\edit.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\pages\\edit.php', 50)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\pages\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/edit', [], true)
+ 5 APPPATH\Controllers\Siswa.php(61): view('pages/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-24 05:50:45 --> Undefined variable $siswa
+in APPPATH\Views\pages\edit.php on line 50.
+ 1 APPPATH\Views\pages\edit.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\pages\\edit.php', 50)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\pages\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/edit', [], true)
+ 5 APPPATH\Controllers\Siswa.php(61): view('pages/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-24 05:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 05:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-24 05:52:08 --> Undefined variable $siswa
+in APPPATH\Views\pages\edit.php on line 50.
+ 1 APPPATH\Views\pages\edit.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\pages\\edit.php', 50)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\pages\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/edit', [], true)
+ 5 APPPATH\Controllers\Siswa.php(61): view('pages/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-24 06:40:22 --> Too few arguments to function App\Controllers\Siswa::update(), 0 passed in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Siswa.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->update()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-24 07:02:23 --> Too few arguments to function App\Controllers\Siswa::update(), 0 passed in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Siswa.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->update()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-24 07:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-24 07:51:22 --> Undefined variable $idx
+in APPPATH\Views\datasiswa\index.php on line 101.
+ 1 APPPATH\Views\datasiswa\index.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idx', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\index.php', 101)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('datasiswa/index', [], true)
+ 5 APPPATH\Controllers\Siswa.php(24): view('datasiswa/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-24 07:53:39 --> Undefined variable $idx
+in APPPATH\Views\datasiswa\index.php on line 101.
+ 1 APPPATH\Views\datasiswa\index.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idx', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\index.php', 101)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('datasiswa/index', [], true)
+ 5 APPPATH\Controllers\Siswa.php(24): view('datasiswa/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-24 07:55:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 07:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 07:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-24 07:56:53 --> Too few arguments to function App\Controllers\Siswa::update(), 0 passed in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Siswa.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->update()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-24 08:17:41 --> Too few arguments to function App\Controllers\Siswa::update(), 0 passed in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Siswa.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->update()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-24 08:18:16 --> Too few arguments to function App\Controllers\Siswa::update(), 0 passed in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Siswa.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->update()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-24 08:19:26 --> Too few arguments to function App\Controllers\Siswa::update(), 0 passed in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Siswa.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->update()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-24 08:20:07 --> Undefined variable $modelSiswa
+in APPPATH\Views\pages\edit.php on line 50.
+ 1 APPPATH\Views\pages\edit.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $modelSiswa', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\pages\\edit.php', 50)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\pages\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/edit', [], true)
+ 5 APPPATH\Controllers\Siswa.php(61): view('pages/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-24 08:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 08:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 08:24:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 08:24:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 08:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 08:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 08:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 08:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 08:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 08:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 08:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 08:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-24 08:33:31 --> Too few arguments to function App\Controllers\Siswa::update(), 0 passed in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Siswa.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->update()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-24 08:35:25 --> Too few arguments to function App\Controllers\Siswa::update(), 0 passed in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Siswa.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->update()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-24 08:43:24 --> Too few arguments to function App\Controllers\Siswa::update(), 0 passed in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Siswa.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->update()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-24 08:45:36 --> Too few arguments to function App\Controllers\Siswa::update(), 0 passed in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Siswa.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->update()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-24 08:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 09:13:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 09:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-24 09:56:45 --> Too few arguments to function App\Controllers\Siswa::edit(), 0 passed in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Siswa.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-24 09:57:48 --> Too few arguments to function App\Controllers\Siswa::edit(), 0 passed in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Siswa.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-24 09:58:20 --> Too few arguments to function App\Controllers\Siswa::edit(), 0 passed in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Siswa.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-24 10:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 10:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 10:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-24 10:42:33 --> Undefined variable $contacts
+in APPPATH\Views\datasiswa\dataview.php on line 40.
+ 1 APPPATH\Views\datasiswa\dataview.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contacts', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\dataview.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\dataview.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('datasiswa/dataview', [], true)
+ 5 APPPATH\Controllers\Siswa.php(24): view('datasiswa/dataview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-24 10:48:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-24 10:48:19 --> Undefined variable $modelSiswa
+in APPPATH\Views\datasiswa\dataview.php on line 48.
+ 1 APPPATH\Views\datasiswa\dataview.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $modelSiswa', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\dataview.php', 48)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\dataview.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('datasiswa/dataview', [], true)
+ 5 APPPATH\Controllers\Siswa.php(24): view('datasiswa/dataview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-24 10:49:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-24 10:49:41 --> Undefined variable $modelSiswa
+in APPPATH\Views\datasiswa\dataview.php on line 48.
+ 1 APPPATH\Views\datasiswa\dataview.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $modelSiswa', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\dataview.php', 48)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\dataview.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('datasiswa/dataview', [], true)
+ 5 APPPATH\Controllers\Siswa.php(24): view('datasiswa/dataview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-24 10:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-24 10:50:09 --> Undefined variable $i
+in APPPATH\Views\datasiswa\dataview.php on line 50.
+ 1 APPPATH\Views\datasiswa\dataview.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $i', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\dataview.php', 50)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\dataview.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('datasiswa/dataview', [], true)
+ 5 APPPATH\Controllers\Siswa.php(24): view('datasiswa/dataview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-24 10:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-24 10:50:46 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 415.
+ 1 APPPATH\Views\datasiswa\dataview.php(127): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\dataview.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('datasiswa/dataview', [], true)
+ 5 APPPATH\Controllers\Siswa.php(24): view('datasiswa/dataview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-24 10:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-24 10:53:01 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 415.
+ 1 APPPATH\Views\datasiswa\dataview.php(127): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\dataview.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('datasiswa/dataview', [], true)
+ 5 APPPATH\Controllers\Siswa.php(24): view('datasiswa/dataview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-24 10:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-24 10:54:13 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 415.
+ 1 APPPATH\Views\datasiswa\dataview.php(127): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\dataview.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('datasiswa/dataview', [], true)
+ 5 APPPATH\Controllers\Siswa.php(24): view('datasiswa/dataview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-24 10:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-24 10:54:36 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 415.
+ 1 APPPATH\Views\datasiswa\dataview.php(107): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\dataview.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('datasiswa/dataview', [], true)
+ 5 APPPATH\Controllers\Siswa.php(24): view('datasiswa/dataview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-24 10:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-24 10:58:15 --> Undefined variable $contacts
+in APPPATH\Views\datasiswa\dataview.php on line 43.
+ 1 APPPATH\Views\datasiswa\dataview.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contacts', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\dataview.php', 43)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\dataview.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('datasiswa/dataview', [], true)
+ 5 APPPATH\Controllers\Siswa.php(24): view('datasiswa/dataview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-24 11:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 11:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 11:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-24 11:08:18 --> Undefined variable $contacts
+in APPPATH\Views\datasiswa\dataview.php on line 43.
+ 1 APPPATH\Views\datasiswa\dataview.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contacts', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\dataview.php', 43)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\dataview.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('datasiswa/dataview', [], true)
+ 5 APPPATH\Controllers\Siswa.php(24): view('datasiswa/dataview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-24 11:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 11:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 11:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-24 11:08:28 --> Undefined variable $contacts
+in APPPATH\Views\datasiswa\dataview.php on line 43.
+ 1 APPPATH\Views\datasiswa\dataview.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contacts', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\dataview.php', 43)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\dataview.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('datasiswa/dataview', [], true)
+ 5 APPPATH\Controllers\Siswa.php(24): view('datasiswa/dataview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-24 11:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 11:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 13:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 13:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 13:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 13:49:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 13:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 13:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-24 13:49:45 --> Undefined variable $contacts
+in APPPATH\Views\datasiswa\dataview.php on line 43.
+ 1 APPPATH\Views\datasiswa\dataview.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contacts', 'C:\\xampp\\htdocs\\Regist2023\\siswa\\app\\Views\\datasiswa\\dataview.php', 43)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Regist2023\\siswa\\app\\Views\\datasiswa\\dataview.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('datasiswa/dataview', [], true)
+ 5 APPPATH\Controllers\Siswa.php(24): view('datasiswa/dataview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-24 13:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-24 13:51:21 --> Undefined variable $contacts
+in APPPATH\Views\datasiswa\dataview.php on line 43.
+ 1 APPPATH\Views\datasiswa\dataview.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contacts', 'C:\\xampp\\htdocs\\Regist2023\\siswa\\app\\Views\\datasiswa\\dataview.php', 43)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Regist2023\\siswa\\app\\Views\\datasiswa\\dataview.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('datasiswa/dataview', [], true)
+ 5 APPPATH\Controllers\Siswa.php(24): view('datasiswa/dataview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-24 13:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 13:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 13:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 13:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 13:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-24 13:54:15 --> Undefined array key "name"
+in APPPATH\Views\datasiswa\dataview.php on line 46.
+ 1 APPPATH\Views\datasiswa\dataview.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\Regist2023\\siswa\\app\\Views\\datasiswa\\dataview.php', 46)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Regist2023\\siswa\\app\\Views\\datasiswa\\dataview.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('datasiswa/dataview', [], true)
+ 5 APPPATH\Controllers\Siswa.php(24): view('datasiswa/dataview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-24 14:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-24 14:06:07 --> Undefined variable $contact
+in APPPATH\Views\datasiswa\dataview.php on line 56.
+ 1 APPPATH\Views\datasiswa\dataview.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contact', 'C:\\xampp\\htdocs\\Regist2023\\siswa\\app\\Views\\datasiswa\\dataview.php', 56)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Regist2023\\siswa\\app\\Views\\datasiswa\\dataview.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('datasiswa/dataview', [], true)
+ 5 APPPATH\Controllers\Siswa.php(24): view('datasiswa/dataview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-24 14:06:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:10:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:10:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:11:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-24 14:32:01 --> Too few arguments to function App\Controllers\Siswa::edit(), 0 passed in C:\xampp\htdocs\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Siswa.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-24 14:32:35 --> Undefined variable $title
+in APPPATH\Views\layouts\admin.php on line 12.
+ 1 APPPATH\Views\layouts\admin.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\Regist2023\\siswa\\app\\Views\\layouts\\admin.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Regist2023\\siswa\\app\\Views\\layouts\\admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/formEditSiswa', [], true)
+ 6 APPPATH\Controllers\Siswa.php(63): view('pages/formEditSiswa', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->edit('13')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-24 14:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-24 14:44:15 --> The route for "dataSiswa" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('dataSiswa')
+ 2 SYSTEMPATH\Common.php(876): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Siswa.php(108): redirect('dataSiswa')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->submitEditSiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-24 14:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:45:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:53:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:57:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:58:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 15:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 15:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 15:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 15:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 21:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 21:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 21:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 21:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 21:46:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 21:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 22:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 22:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 22:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 22:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 22:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 22:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 22:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 23:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 23:03:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 23:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 23:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 23:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 23:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 23:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 23:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 23:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 23:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 23:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 23:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 23:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 23:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 23:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 23:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 23:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 23:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 23:30:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 23:30:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,248 @@
+CRITICAL - 2023-07-15 01:46:07 --> require(layouts/admin): Failed to open stream: No such file or directory
+in APPPATH\Views\dashboard.php on line 3.
+ 1 APPPATH\Views\dashboard.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(layouts/admin): Failed to open stream: No such file or directory', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\dashboard.php', 3)
+ 2 APPPATH\Views\dashboard.php(3): require()
+ 3 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\dashboard.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dashboard', [], true)
+ 6 APPPATH\Controllers\Home.php(11): view('dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-15 01:46:40 --> require(&lt;!-- DEBUG-VIEW START 2 APPPATH\Views\layouts\admin.php --&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+        &lt;meta charset=&quot;utf-8&quot;&gt;
+        &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+        &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;&gt;
+        &lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;
+        &lt;meta name=&quot;author&quot; content=&quot;&quot;&gt;
+        &lt;title&gt;Project Web&lt;/title&gt;
+        &lt;!-- Custom fonts for this template--&gt;
+        &lt;link href=&quot;http://localhost:8080//assets/vendor/fontawesome-free/css/all.min.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+        &lt;link href=&quot;https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&quot;
+            rel=&quot;stylesheet&quot;&gt;
+        &lt;!-- Custom styles for this template--&gt;
+        &lt;link href=&quot;http://localhost:8080/assets/css/sb-admin-2.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+
+            &lt;/head&gt;
+    &lt;body id=&quot;page-top&quot;&gt;
+        &lt;!-- Page Wrapper --&gt;
+        &lt;div id=&quot;wrapper&quot;&gt;
+            &lt;!-- Sidebar --&gt;
+            &lt;!-- End of Sidebar --&gt;
+            &lt;!-- Content Wrapper --&gt;
+           &lt;div id=&quot;content-wrapper&quot; class=&quot;d-flex flex-column&quot;&gt;
+                &lt;!-- Main Content --&gt;
+                &lt;div id=&quot;content&quot;&gt;
+                    &lt;!-- Topbar --&gt;
+                    &lt;!-- Begin Page Content --&gt;
+                    &lt;!-- Footer --&gt;
+                &lt;/div&gt;
+                &lt;!-- End of Main Content --&gt;
+            &lt;/div&gt;
+            &lt;!-- End of Content Wrapper --&gt;
+        &lt;/div&gt;
+        &lt;!-- End of Page Wrapper --&gt;
+        &lt;!-- Scroll to Top Button--&gt;
+        &lt;a class=&quot;scroll-to-top rounded&quot; href=&quot;#page-top&quot;&gt;
+        &lt;i class=&quot;fas fa-angle-up&quot;&gt;&lt;/i&gt;
+        &lt;/a&gt;
+        &lt;!-- Logout Modal--&gt;
+        &lt;div class=&quot;modal fade&quot; id=&quot;logoutModal&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;exampleModalLabel&quot;
+            aria-hidden=&quot;true&quot;&gt;
+            &lt;div class=&quot;modal-dialog&quot; role=&quot;document&quot;&gt;
+                &lt;div class=&quot;modal-content&quot;&gt;
+                    &lt;div class=&quot;modal-header&quot;&gt;
+                        &lt;h5 class=&quot;modal-title&quot; id=&quot;exampleModalLabel&quot;&gt;Ready to Leave?&lt;/h5&gt;
+                        &lt;button class=&quot;close&quot; type=&quot;button&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;&gt;
+                        &lt;span aria-hidden=&quot;true&quot;&gt;×&lt;/span&gt;
+                        &lt;/button&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;modal-body&quot;&gt;Select &quot;Logout&quot; below if you are ready to end your current session.&lt;/div&gt;
+                    &lt;div class=&quot;modal-footer&quot;&gt;
+                      &lt;!-- &lt;button class=&quot;btn btn-secondary&quot; type=&quot;button&quot; data-dismiss=&quot;modal&quot;&gt;Cancel&lt;/button&gt; --&gt;
+                        &lt;a class=&quot;btn btn-primary&quot; href=&quot;/login&quot;&gt;Logout&lt;/a&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;!-- Bootstrap core JavaScript--&gt;
+        &lt;script src=&quot;http://localhost:8080/assets/vendor/jquery/jquery.min.js&quot;&gt;&lt;/script&gt;
+        &lt;script src=&quot;http://localhost:8080/assets/vendor/bootstrap/js/bootstrap.bundle.min.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- Core plugin JavaScript--&gt;
+        &lt;script src=&quot;http://localhost:8080/assets/vendor/jquery-easing/jquery.easing.min.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- Custom scripts for all pages--&gt;
+        &lt;script src=&quot;http://localhost:8080/assets/js/sb-admin-2.min.js&quot;&gt;&lt;/script&gt;
+        &lt;script&gt;
+            function preview(){
+                const akta = document.querySelector('#scanakta');
+                const aktaLabel = document.querySelector('.custom-file-label');
+                const imgPreview = document.querySelector('.img-imgPreview');
+    
+                aktaLabel.textContent = akta.files[0].name;
+    
+                const fileakta = new FileReader();
+                fileakta.readAsDataURL(akta.files[0]);
+    
+                fileakta.onload = function(e){
+                    imgPreview.src = e.target.result;
+                }
+            }
+        &lt;/script&gt;
+            &lt;/body&gt;
+&lt;/html&gt;
+&lt;!-- DEBUG-VIEW ENDED 2 APPPATH\Views\layouts\admin.php --&gt;
+): Failed to open stream: Invalid argument
+in APPPATH\Views\dashboard.php on line 3.
+ 1 APPPATH\Views\dashboard.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(&lt;!-- DEBUG-VIEW START 2 APPPATH\\Views\\layouts\\admin.php --&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+        &lt;meta charset=&quot;utf-8&quot;&gt;
+        &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+        &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;&gt;
+        &lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;
+        &lt;meta name=&quot;author&quot; content=&quot;&quot;&gt;
+        &lt;title&gt;Project Web&lt;/title&gt;
+        &lt;!-- Custom fonts for this template--&gt;
+        &lt;link href=&quot;http://localhost:8080//assets/vendor/fontawesome-free/css/all.min.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+        &lt;link href=&quot;https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&quot;
+            rel=&quot;stylesheet&quot;&gt;
+        &lt;!-- Custom styles for this template--&gt;
+        &lt;link href=&quot;http://localhost:8080/assets/css/sb-admin-2.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+
+            &lt;/head&gt;
+    &lt;body id=&quot;page-top&quot;&gt;
+        &lt;!-- Page Wrapper --&gt;
+        &lt;div id=&quot;wrapper&quot;&gt;
+            &lt;!-- Sidebar --&gt;
+            &lt;!-- End of Sidebar --&gt;
+            &lt;!-- Content Wrapper --&gt;
+           &lt;div id=&quot;content-wrapper&quot; class=&quot;d-flex flex-column&quot;&gt;
+                &lt;!-- Main Content --&gt;
+                &lt;div id=&quot;content&quot;&gt;
+                    &lt;!-- Topbar --&gt;
+                    &lt;!-- Begin Page Content --&gt;
+                    &lt;!-- Footer --&gt;
+                &lt;/div&gt;
+                &lt;!-- End of Main Content --&gt;
+            &lt;/div&gt;
+            &lt;!-- End of Content Wrapper --&gt;
+        &lt;/div&gt;
+        &lt;!-- End of Page Wrapper --&gt;
+        &lt;!-- Scroll to Top Button--&gt;
+        &lt;a class=&quot;scroll-to-top rounded&quot; href=&quot;#page-top&quot;&gt;
+        &lt;i class=&quot;fas fa-angle-up&quot;&gt;&lt;/i&gt;
+        &lt;/a&gt;
+        &lt;!-- Logout Modal--&gt;
+        &lt;div class=&quot;modal fade&quot; id=&quot;logoutModal&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;exampleModalLabel&quot;
+            aria-hidden=&quot;true&quot;&gt;
+            &lt;div class=&quot;modal-dialog&quot; role=&quot;document&quot;&gt;
+                &lt;div class=&quot;modal-content&quot;&gt;
+                    &lt;div class=&quot;modal-header&quot;&gt;
+                        &lt;h5 class=&quot;modal-title&quot; id=&quot;exampleModalLabel&quot;&gt;Ready to Leave?&lt;/h5&gt;
+                        &lt;button class=&quot;close&quot; type=&quot;button&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;&gt;
+                        &lt;span aria-hidden=&quot;true&quot;&gt;×&lt;/span&gt;
+                        &lt;/button&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;modal-body&quot;&gt;Select &quot;Logout&quot; below if you are ready to end your current session.&lt;/div&gt;
+                    &lt;div class=&quot;modal-footer&quot;&gt;
+                      &lt;!-- &lt;button class=&quot;btn btn-secondary&quot; type=&quot;button&quot; data-dismiss=&quot;modal&quot;&gt;Cancel&lt;/button&gt; --&gt;
+                        &lt;a class=&quot;btn btn-primary&quot; href=&quot;/login&quot;&gt;Logout&lt;/a&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;!-- Bootstrap core JavaScript--&gt;
+        &lt;script src=&quot;http://localhost:8080/assets/vendor/jquery/jquery.min.js&quot;&gt;&lt;/script&gt;
+        &lt;script src=&quot;http://localhost:8080/assets/vendor/bootstrap/js/bootstrap.bundle.min.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- Core plugin JavaScript--&gt;
+        &lt;script src=&quot;http://localhost:8080/assets/vendor/jquery-easing/jquery.easing.min.js&quot;&gt;&lt;/script&gt;
+        &lt;!-- Custom scripts for all pages--&gt;
+        &lt;script src=&quot;http://localhost:8080/assets/js/sb-admin-2.min.js&quot;&gt;&lt;/script&gt;
+        &lt;script&gt;
+            function preview(){
+                const akta = document.querySelector(\'#scanakta\');
+                const aktaLabel = document.querySelector(\'.custom-file-label\');
+                const imgPreview = document.querySelector(\'.img-imgPreview\');
+    
+                aktaLabel.textContent = akta.files[0].name;
+    
+                const fileakta = new FileReader();
+                fileakta.readAsDataURL(akta.files[0]);
+    
+                fileakta.onload = function(e){
+                    imgPreview.src = e.target.result;
+                }
+            }
+        &lt;/script&gt;
+            &lt;/body&gt;
+&lt;/html&gt;
+&lt;!-- DEBUG-VIEW ENDED 2 APPPATH\\Views\\layouts\\admin.php --&gt;
+): Failed to open stream: Invalid argument', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\dashboard.php', 3)
+ 2 APPPATH\Views\dashboard.php(3): require()
+ 3 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\dashboard.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dashboard', [], true)
+ 6 APPPATH\Controllers\Home.php(11): view('dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-15 01:47:19 --> require(views/layouts/admin): Failed to open stream: No such file or directory
+in APPPATH\Views\dashboard.php on line 3.
+ 1 APPPATH\Views\dashboard.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(views/layouts/admin): Failed to open stream: No such file or directory', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\dashboard.php', 3)
+ 2 APPPATH\Views\dashboard.php(3): require()
+ 3 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\dashboard.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dashboard', [], true)
+ 6 APPPATH\Controllers\Home.php(11): view('dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-15 01:47:52 --> require(views/layouts/admin.php): Failed to open stream: No such file or directory
+in APPPATH\Views\dashboard.php on line 3.
+ 1 APPPATH\Views\dashboard.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(views/layouts/admin.php): Failed to open stream: No such file or directory', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\dashboard.php', 3)
+ 2 APPPATH\Views\dashboard.php(3): require()
+ 3 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\dashboard.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dashboard', [], true)
+ 6 APPPATH\Controllers\Home.php(11): view('dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-15 01:48:07 --> include(views/layouts/admin.php): Failed to open stream: No such file or directory
+in APPPATH\Views\dashboard.php on line 3.
+ 1 APPPATH\Views\dashboard.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(views/layouts/admin.php): Failed to open stream: No such file or directory', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\dashboard.php', 3)
+ 2 APPPATH\Views\dashboard.php(3): include()
+ 3 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\dashboard.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dashboard', [], true)
+ 6 APPPATH\Controllers\Home.php(11): view('dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-15 01:48:33 --> include(views/layouts/admin.php): Failed to open stream: No such file or directory
+in APPPATH\Views\dashboard.php on line 3.
+ 1 APPPATH\Views\dashboard.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(views/layouts/admin.php): Failed to open stream: No such file or directory', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\dashboard.php', 3)
+ 2 APPPATH\Views\dashboard.php(3): include()
+ 3 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\dashboard.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dashboard', [], true)
+ 6 APPPATH\Controllers\Home.php(11): view('dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')

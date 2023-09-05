@@ -1,0 +1,1213 @@
+CRITICAL - 2023-07-18 00:05:36 --> Class "Config\App\Filters\Auth" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('datasiswa', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-18 00:06:10 --> "Auth" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('Auth')
+ 2 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\Filters\Filters->enableFilter('Auth', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-18 00:16:30 --> Class "Config\App\Filters\Auth" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('datasiswa', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-18 00:17:53 --> "login" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 493.
+ 1 SYSTEMPATH\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('login')
+ 2 SYSTEMPATH\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+ 3 SYSTEMPATH\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('home')
+ 4 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('home', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-18 00:17:57 --> "login" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 493.
+ 1 SYSTEMPATH\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('login')
+ 2 SYSTEMPATH\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+ 3 SYSTEMPATH\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('/')
+ 4 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('/', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-18 00:17:58 --> "login" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 493.
+ 1 SYSTEMPATH\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('login')
+ 2 SYSTEMPATH\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+ 3 SYSTEMPATH\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('/')
+ 4 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('/', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-18 00:18:14 --> Class "Config\App\Filters\Auth" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('datasiswa', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-18 02:01:34 --> Class "Config\App\Filters\Auth" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('datasiswa', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-18 02:02:06 --> Class "Config\App\Filters\Auth" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('datasiswa', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-18 02:02:10 --> Class "Config\App\Filters\Auth" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('datasiswa', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-18 02:03:52 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Login.php(12): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-18 02:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-18 02:06:49 --> Undefined variable $title
+in APPPATH\Views\layouts\admin.php on line 12.
+ 1 APPPATH\Views\layouts\admin.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\layouts\\admin.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\layouts\\admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/login', [], true)
+ 6 APPPATH\Controllers\Login.php(12): view('pages/login')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-18 02:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-18 02:07:21 --> Undefined variable $title
+in APPPATH\Views\layouts\admin.php on line 12.
+ 1 APPPATH\Views\layouts\admin.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\layouts\\admin.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\layouts\\admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/login', [], true)
+ 6 APPPATH\Controllers\Login.php(12): view('pages/login')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-18 02:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:09:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:10:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:11:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:14:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:27:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:27:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:27:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:27:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:30:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:31:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:33:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:35:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:51:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:54:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:55:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:57:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 02:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:02:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:05:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:07:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:07:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:09:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 03:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-18 04:07:30 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Login.php(17): view('login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-18 04:07:42 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Login.php(17): view('login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-18 04:37:37 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Login.php(49): view('login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-18 05:05:01 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Login.php(49): view('login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-18 05:51:26 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Login.php(49): view('login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-18 05:53:46 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Login.php(49): view('login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-18 05:54:05 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Login.php(49): view('login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-18 05:54:08 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Login.php(49): view('login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-18 05:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 05:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:45:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:45:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-18 06:49:07 --> Undefined variable $base_url
+in APPPATH\Views\layouts\components\navadmin.php on line 4.
+ 1 APPPATH\Views\layouts\components\navadmin.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\layouts\\components\\navadmin.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\layouts\\components\\navadmin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('layouts/components/navadmin', [], true)
+ 5 APPPATH\Controllers\Siswa.php(24): view('layouts/components/navadmin')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-18 06:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:49:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:50:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:54:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:54:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:55:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:55:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 06:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 07:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 07:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-18 07:03:38 --> Undefined variable $contact
+in APPPATH\Views\datasiswa\index.php on line 60.
+ 1 APPPATH\Views\datasiswa\index.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contact', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\index.php', 60)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('datasiswa/index', [], true)
+ 5 APPPATH\Controllers\Siswa.php(25): view('datasiswa/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-18 07:27:10 --> Undefined array key "name"
+in APPPATH\Views\datasiswa\index.php on line 78.
+ 1 APPPATH\Views\datasiswa\index.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\index.php', 78)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('datasiswa/index', [], true)
+ 5 APPPATH\Controllers\Siswa.php(25): view('datasiswa/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-18 07:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 07:36:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-18 07:36:12 --> Undefined variable $contact
+in APPPATH\Views\datasiswa\index.php on line 82.
+ 1 APPPATH\Views\datasiswa\index.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contact', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\index.php', 82)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('datasiswa/index', [], true)
+ 5 APPPATH\Controllers\Siswa.php(25): view('datasiswa/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-18 07:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 07:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 07:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 07:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 07:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 07:57:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 08:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 08:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 08:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 08:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 08:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 08:20:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-18 08:36:21 --> Undefined variable $i
+in APPPATH\Views\datasiswa\index.php on line 44.
+ 1 APPPATH\Views\datasiswa\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $i', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('datasiswa/index', [], true)
+ 5 APPPATH\Controllers\Siswa.php(25): view('datasiswa/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-18 08:36:42 --> Undefined variable $key
+in APPPATH\Views\datasiswa\index.php on line 45.
+ 1 APPPATH\Views\datasiswa\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $key', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\index.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('datasiswa/index', [], true)
+ 5 APPPATH\Controllers\Siswa.php(25): view('datasiswa/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-18 08:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 08:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 08:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 08:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 08:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-18 08:52:57 --> view(): Argument #2 ($data) must be of type array, string given, called in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\app\Controllers\Login.php on line 49
+in SYSTEMPATH\Common.php on line 1168.
+ 1 APPPATH\Controllers\Login.php(49): view('pages/login', 'layouts/components/navadmin', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-18 08:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 08:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 09:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-18 09:03:54 --> Invalid file: "navadmin.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('navadmin.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('navadmin', [], true)
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('datasiswa/index', [], true)
+ 4 APPPATH\Controllers\Siswa.php(25): view('datasiswa/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-18 09:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 09:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-18 09:05:42 --> Invalid file: "navadmin.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('navadmin.php')
+ 2 SYSTEMPATH\View\View.php(452): CodeIgniter\View\View->render('navadmin', null, true)
+ 3 APPPATH\Views\datasiswa\index.php(2): CodeIgniter\View\View->include('navadmin')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\datasiswa\\index.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('datasiswa/index', [], true)
+ 7 APPPATH\Controllers\Siswa.php(25): view('datasiswa/index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-18 09:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 09:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 09:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 09:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 09:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 09:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 09:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-18 09:35:28 --> mysqli_sql_exception: Column 'tempat_lahir' cannot be null in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `si...', 0)
+#1 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\app\Controllers\Siswa.php(57): CodeIgniter\Model->insert(Array)
+#8 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Siswa->saveFormData()
+#9 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#10 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekst...')
+#13 {main}
+CRITICAL - 2023-07-18 09:35:29 --> Column 'tempat_lahir' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (:tempat_lahir:, :tgl_lahir:, :jenis_kelamin:, :agama:, :anak:, :jum_sdr:, :alamat:, :telp:, :nama_ortu:, :pekerjaan:, :alamat_ortu:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Siswa.php(57): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->saveFormData()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-18 09:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 09:37:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-18 09:38:42 --> mysqli_sql_exception: Column 'tempat_lahir' cannot be null in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `si...', 0)
+#1 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\app\Controllers\Siswa.php(57): CodeIgniter\Model->insert(Array)
+#8 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Siswa->saveFormData()
+#9 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#10 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekst...')
+#13 {main}
+CRITICAL - 2023-07-18 09:38:42 --> Column 'tempat_lahir' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (:tempat_lahir:, :tgl_lahir:, :jenis_kelamin:, :agama:, :anak:, :jum_sdr:, :alamat:, :telp:, :nama_ortu:, :pekerjaan:, :alamat_ortu:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Siswa.php(57): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->saveFormData()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+ERROR - 2023-07-18 09:43:26 --> mysqli_sql_exception: Column 'tempat_lahir' cannot be null in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `si...', 0)
+#1 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\app\Controllers\Siswa.php(57): CodeIgniter\Model->insert(Array)
+#8 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Siswa->saveFormData()
+#9 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#10 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekst...')
+#13 {main}
+CRITICAL - 2023-07-18 09:43:26 --> Column 'tempat_lahir' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (:tempat_lahir:, :tgl_lahir:, :jenis_kelamin:, :agama:, :anak:, :jum_sdr:, :alamat:, :telp:, :nama_ortu:, :pekerjaan:, :alamat_ortu:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Siswa.php(57): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->saveFormData()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-18 09:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-18 09:54:01 --> Undefined variable $siswa
+in APPPATH\Views\pages\pengumuman.php on line 42.
+ 1 APPPATH\Views\pages\pengumuman.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\pages\\pengumuman.php', 42)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\pages\\pengumuman.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/pengumuman', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('pages/pengumuman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pengumuman()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-18 09:55:07 --> Undefined variable $siswa
+in APPPATH\Views\pages\pengumuman.php on line 42.
+ 1 APPPATH\Views\pages\pengumuman.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\pages\\pengumuman.php', 42)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\app\\Views\\pages\\pengumuman.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/pengumuman', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('pages/pengumuman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pengumuman()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-18 09:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 09:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 10:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 10:00:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 10:02:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 10:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 10:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 10:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-18 10:04:38 --> mysqli_sql_exception: Column 'tempat_lahir' cannot be null in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `si...', 0)
+#1 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\app\Controllers\Siswa.php(57): CodeIgniter\Model->insert(Array)
+#8 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Siswa->saveFormData()
+#9 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#10 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekst...')
+#13 {main}
+CRITICAL - 2023-07-18 10:04:38 --> Column 'tempat_lahir' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (:tempat_lahir:, :tgl_lahir:, :jenis_kelamin:, :agama:, :anak:, :jum_sdr:, :alamat:, :telp:, :nama_ortu:, :pekerjaan:, :alamat_ortu:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Siswa.php(57): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->saveFormData()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-18 10:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-18 10:11:28 --> mysqli_sql_exception: Column 'tempat_lahir' cannot be null in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `si...', 0)
+#1 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\app\Controllers\Siswa.php(57): CodeIgniter\Model->insert(Array)
+#8 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Siswa->saveFormData()
+#9 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#10 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekst...')
+#13 {main}
+CRITICAL - 2023-07-18 10:11:28 --> Column 'tempat_lahir' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (:tempat_lahir:, :tgl_lahir:, :jenis_kelamin:, :agama:, :anak:, :jum_sdr:, :alamat:, :telp:, :nama_ortu:, :pekerjaan:, :alamat_ortu:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Siswa.php(57): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->saveFormData()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-18 10:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-18 10:12:59 --> mysqli_sql_exception: Column 'tempat_lahir' cannot be null in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `si...', 0)
+#1 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\app\Controllers\Siswa.php(57): CodeIgniter\Model->insert(Array)
+#8 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Siswa->saveFormData()
+#9 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#10 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekst...')
+#13 {main}
+CRITICAL - 2023-07-18 10:12:59 --> Column 'tempat_lahir' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (:tempat_lahir:, :tgl_lahir:, :jenis_kelamin:, :agama:, :anak:, :jum_sdr:, :alamat:, :telp:, :nama_ortu:, :pekerjaan:, :alamat_ortu:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Siswa.php(57): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->saveFormData()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-18 10:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-18 10:13:28 --> mysqli_sql_exception: Column 'tempat_lahir' cannot be null in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `si...', 0)
+#1 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\app\Controllers\Siswa.php(57): CodeIgniter\Model->insert(Array)
+#8 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Siswa->saveFormData()
+#9 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#10 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekst...')
+#13 {main}
+CRITICAL - 2023-07-18 10:13:28 --> Column 'tempat_lahir' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (:tempat_lahir:, :tgl_lahir:, :jenis_kelamin:, :agama:, :anak:, :jum_sdr:, :alamat:, :telp:, :nama_ortu:, :pekerjaan:, :alamat_ortu:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Siswa.php(57): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->saveFormData()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-18 10:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-18 10:16:01 --> mysqli_sql_exception: Column 'tempat_lahir' cannot be null in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `si...', 0)
+#1 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\app\Controllers\Siswa.php(57): CodeIgniter\Model->insert(Array)
+#8 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Siswa->saveFormData()
+#9 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#10 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekst...')
+#13 {main}
+CRITICAL - 2023-07-18 10:16:01 --> Column 'tempat_lahir' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (:tempat_lahir:, :tgl_lahir:, :jenis_kelamin:, :agama:, :anak:, :jum_sdr:, :alamat:, :telp:, :nama_ortu:, :pekerjaan:, :alamat_ortu:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Siswa.php(57): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->saveFormData()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+ERROR - 2023-07-18 10:22:04 --> mysqli_sql_exception: Column 'tempat_lahir' cannot be null in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `si...', 0)
+#1 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\app\Controllers\Siswa.php(57): CodeIgniter\Model->insert(Array)
+#8 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Siswa->saveFormData()
+#9 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#10 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekst...')
+#13 {main}
+CRITICAL - 2023-07-18 10:22:04 --> Column 'tempat_lahir' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (:tempat_lahir:, :tgl_lahir:, :jenis_kelamin:, :agama:, :anak:, :jum_sdr:, :alamat:, :telp:, :nama_ortu:, :pekerjaan:, :alamat_ortu:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Siswa.php(57): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->saveFormData()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-18 10:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 10:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 10:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 10:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 10:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 10:30:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 10:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 10:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-18 10:32:21 --> mysqli_sql_exception: Column 'tempat_lahir' cannot be null in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `si...', 0)
+#1 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\app\Controllers\Siswa.php(57): CodeIgniter\Model->insert(Array)
+#8 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Siswa->saveFormData()
+#9 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#10 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekst...')
+#13 {main}
+CRITICAL - 2023-07-18 10:32:21 --> Column 'tempat_lahir' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (:tempat_lahir:, :tgl_lahir:, :jenis_kelamin:, :agama:, :anak:, :jum_sdr:, :alamat:, :telp:, :nama_ortu:, :pekerjaan:, :alamat_ortu:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Siswa.php(57): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->saveFormData()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-18 10:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 10:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-18 10:50:17 --> mysqli_sql_exception: Column 'tempat_lahir' cannot be null in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `si...', 0)
+#1 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\app\Controllers\Siswa.php(57): CodeIgniter\Model->insert(Array)
+#8 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Siswa->saveFormData()
+#9 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#10 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekst...')
+#13 {main}
+CRITICAL - 2023-07-18 10:50:17 --> Column 'tempat_lahir' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (:tempat_lahir:, :tgl_lahir:, :jenis_kelamin:, :agama:, :anak:, :jum_sdr:, :alamat:, :telp:, :nama_ortu:, :pekerjaan:, :alamat_ortu:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Siswa.php(57): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->saveFormData()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+ERROR - 2023-07-18 10:54:26 --> mysqli_sql_exception: Column 'tempat_lahir' cannot be null in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `si...', 0)
+#1 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\app\Controllers\Siswa.php(57): CodeIgniter\Model->insert(Array)
+#8 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Siswa->saveFormData()
+#9 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#10 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekst...')
+#13 {main}
+CRITICAL - 2023-07-18 10:54:26 --> Column 'tempat_lahir' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (:tempat_lahir:, :tgl_lahir:, :jenis_kelamin:, :agama:, :anak:, :jum_sdr:, :alamat:, :telp:, :nama_ortu:, :pekerjaan:, :alamat_ortu:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Siswa.php(57): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->saveFormData()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-18 10:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-18 10:54:37 --> mysqli_sql_exception: Column 'tempat_lahir' cannot be null in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `si...', 0)
+#1 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\app\Controllers\Siswa.php(57): CodeIgniter\Model->insert(Array)
+#8 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Siswa->saveFormData()
+#9 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#10 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekst...')
+#13 {main}
+CRITICAL - 2023-07-18 10:54:37 --> Column 'tempat_lahir' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (:tempat_lahir:, :tgl_lahir:, :jenis_kelamin:, :agama:, :anak:, :jum_sdr:, :alamat:, :telp:, :nama_ortu:, :pekerjaan:, :alamat_ortu:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Siswa.php(57): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->saveFormData()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-18 22:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-18 22:55:37 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'apps', 3306, '', 0)
+#1 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\app\Controllers\Login.php(28): CodeIgniter\BaseModel->first()
+#7 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Login->index()
+#8 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekst...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\app\Controllers\Login.php(28): CodeIgniter\BaseModel->first()
+#6 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Login->index()
+#7 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekst...')
+#11 {main}
+CRITICAL - 2023-07-18 22:55:37 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Login.php(28): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-18 22:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 22:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 23:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 23:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 23:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 23:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 23:04:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 23:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 23:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 23:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 23:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 23:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 23:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 23:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 23:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 23:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 23:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 23:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 23:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 23:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 23:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-18 23:29:03 --> mysqli_sql_exception: Column 'tempat_lahir' cannot be null in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `si...', 0)
+#1 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\app\Controllers\Siswa.php(53): CodeIgniter\Model->insert(Array)
+#8 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Siswa->saveFormData()
+#9 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#10 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekst...')
+#13 {main}
+CRITICAL - 2023-07-18 23:29:03 --> Column 'tempat_lahir' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (:tempat_lahir:, :tgl_lahir:, :jenis_kelamin:, :agama:, :anak:, :jum_sdr:, :alamat:, :telp:, :nama_ortu:, :pekerjaan:, :alamat_ortu:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Siswa.php(53): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->saveFormData()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-18 23:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-18 23:33:33 --> mysqli_sql_exception: Column 'tgl_lahir' cannot be null in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `si...', 0)
+#1 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\app\Controllers\Siswa.php(53): CodeIgniter\Model->insert(Array)
+#8 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Siswa->saveFormData()
+#9 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#10 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekst...')
+#13 {main}
+CRITICAL - 2023-07-18 23:33:33 --> Column 'tgl_lahir' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (:tempat_lahir:, :tgl_lahir:, :jenis_kelamin:, :agama:, :anak:, :jum_sdr:, :alamat:, :telp:, :nama_ortu:, :pekerjaan:, :alamat_ortu:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Siswa.php(53): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->saveFormData()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+ERROR - 2023-07-18 23:34:57 --> mysqli_sql_exception: Column 'tempat_lahir' cannot be null in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `si...', 0)
+#1 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\app\Controllers\Siswa.php(53): CodeIgniter\Model->insert(Array)
+#8 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Siswa->saveFormData()
+#9 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#10 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekst...')
+#13 {main}
+CRITICAL - 2023-07-18 23:34:57 --> Column 'tempat_lahir' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (:tempat_lahir:, :tgl_lahir:, :jenis_kelamin:, :agama:, :anak:, :jum_sdr:, :alamat:, :telp:, :nama_ortu:, :pekerjaan:, :alamat_ortu:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Siswa.php(53): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->saveFormData()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-18 23:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-18 23:35:18 --> mysqli_sql_exception: Column 'tgl_lahir' cannot be null in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `si...', 0)
+#1 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\app\Controllers\Siswa.php(53): CodeIgniter\Model->insert(Array)
+#8 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Siswa->saveFormData()
+#9 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#10 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekst...')
+#13 {main}
+CRITICAL - 2023-07-18 23:35:18 --> Column 'tgl_lahir' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `siswa` (`tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `anak`, `jum_sdr`, `alamat`, `telp`, `nama_ortu`, `pekerjaan`, `alamat_ortu`) VALUES (:tempat_lahir:, :tgl_lahir:, :jenis_kelamin:, :agama:, :anak:, :jum_sdr:, :alamat:, :telp:, :nama_ortu:, :pekerjaan:, :alamat_ortu:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Siswa.php(53): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Siswa->saveFormData()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-18 23:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-18 23:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

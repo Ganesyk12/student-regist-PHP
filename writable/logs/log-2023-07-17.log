@@ -1,0 +1,459 @@
+INFO - 2023-07-17 00:24:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 00:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 00:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 00:46:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-17 00:46:28 --> mysqli_sql_exception: Unknown column 'users.deleted_at' in 'where clause' in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(140): CodeIgniter\BaseModel->first()
+#7 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(19): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#8 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\myth\auth\src\Controllers\AuthController.php(87): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#9 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->attemptLogin()
+#10 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#11 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekst...')
+#14 {main}
+CRITICAL - 2023-07-17 00:46:28 --> Unknown column 'users.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `users`
+WHERE `username` = \'Admin\'
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `username` = \'Admin\'
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `username` = \'Admin\'
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `username` = :username:
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(140): CodeIgniter\BaseModel->first()
+ 8 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(19): Myth\Auth\Authentication\LocalAuthenticator->validate([...], true)
+ 9 VENDORPATH\myth\auth\src\Controllers\AuthController.php(87): Myth\Auth\Authentication\LocalAuthenticator->attempt([...], false)
+10 SYSTEMPATH\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->attemptLogin()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-17 00:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 00:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 00:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 00:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 00:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 00:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 00:56:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 00:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 00:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 00:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 00:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 00:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 00:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 00:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 00:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 00:59:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 00:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 00:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 00:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:05:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:05:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 01:24:16 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in VENDORPATH\myth\auth\src\Views\login.php on line 64.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Myth\\Auth\\Views\\login', [], true)
+ 3 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('Myth\\Auth\\Views\\login', [...])
+ 4 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('Myth\\Auth\\Views\\login', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-17 01:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-17 01:35:48 --> mysqli_sql_exception: Unknown column 'users.deleted_at' in 'where clause' in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(140): CodeIgniter\BaseModel->first()
+#7 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(19): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#8 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\myth\auth\src\Controllers\AuthController.php(87): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#9 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->attemptLogin()
+#10 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#11 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekst...')
+#14 {main}
+CRITICAL - 2023-07-17 01:35:48 --> Unknown column 'users.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `users`
+WHERE `username` = \'Admin\'
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `username` = \'Admin\'
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `username` = \'Admin\'
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `username` = :username:
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(140): CodeIgniter\BaseModel->first()
+ 8 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(19): Myth\Auth\Authentication\LocalAuthenticator->validate([...], true)
+ 9 VENDORPATH\myth\auth\src\Controllers\AuthController.php(87): Myth\Auth\Authentication\LocalAuthenticator->attempt([...], false)
+10 SYSTEMPATH\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->attemptLogin()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-17 01:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:40:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-17 01:51:17 --> mysqli_sql_exception: Unknown column 'users.deleted_at' in 'where clause' in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(140): CodeIgniter\BaseModel->first()
+#7 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(19): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#8 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\myth\auth\src\Controllers\AuthController.php(87): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#9 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->attemptLogin()
+#10 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#11 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekst...')
+#14 {main}
+CRITICAL - 2023-07-17 01:51:17 --> Unknown column 'users.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `users`
+WHERE `username` = \'Admin\'
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `username` = \'Admin\'
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `username` = \'Admin\'
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `username` = :username:
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(140): CodeIgniter\BaseModel->first()
+ 8 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(19): Myth\Auth\Authentication\LocalAuthenticator->validate([...], true)
+ 9 VENDORPATH\myth\auth\src\Controllers\AuthController.php(87): Myth\Auth\Authentication\LocalAuthenticator->attempt([...], false)
+10 SYSTEMPATH\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->attemptLogin()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-17 01:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:51:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-17 01:51:27 --> mysqli_sql_exception: Unknown column 'users.deleted_at' in 'where clause' in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(140): CodeIgniter\BaseModel->first()
+#7 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(19): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#8 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\myth\auth\src\Controllers\AuthController.php(87): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#9 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->attemptLogin()
+#10 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#11 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekst...')
+#14 {main}
+CRITICAL - 2023-07-17 01:51:27 --> Unknown column 'users.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `users`
+WHERE `username` = \'Admin\'
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `username` = \'Admin\'
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `username` = \'Admin\'
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `username` = :username:
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(140): CodeIgniter\BaseModel->first()
+ 8 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(19): Myth\Auth\Authentication\LocalAuthenticator->validate([...], true)
+ 9 VENDORPATH\myth\auth\src\Controllers\AuthController.php(87): Myth\Auth\Authentication\LocalAuthenticator->attempt([...], false)
+10 SYSTEMPATH\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->attemptLogin()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-17 01:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-17 01:52:30 --> mysqli_sql_exception: Unknown column 'users.deleted_at' in 'where clause' in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(140): CodeIgniter\BaseModel->first()
+#7 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(19): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#8 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\myth\auth\src\Controllers\AuthController.php(87): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#9 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->attemptLogin()
+#10 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#11 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekst...')
+#14 {main}
+CRITICAL - 2023-07-17 01:52:30 --> Unknown column 'users.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `users`
+WHERE `username` = \'Admin\'
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `username` = \'Admin\'
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `username` = \'Admin\'
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `username` = :username:
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(140): CodeIgniter\BaseModel->first()
+ 8 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(19): Myth\Auth\Authentication\LocalAuthenticator->validate([...], true)
+ 9 VENDORPATH\myth\auth\src\Controllers\AuthController.php(87): Myth\Auth\Authentication\LocalAuthenticator->attempt([...], false)
+10 SYSTEMPATH\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->attemptLogin()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-17 01:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 01:54:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-17 01:54:25 --> mysqli_sql_exception: Unknown column 'users.deleted_at' in 'where clause' in D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(140): CodeIgniter\BaseModel->first()
+#7 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(19): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#8 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\myth\auth\src\Controllers\AuthController.php(87): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#9 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->attemptLogin()
+#10 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#11 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekst...')
+#14 {main}
+CRITICAL - 2023-07-17 01:54:25 --> Unknown column 'users.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `users`
+WHERE `username` = \'Admin\'
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `username` = \'Admin\'
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `username` = \'Admin\'
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `username` = :username:
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(140): CodeIgniter\BaseModel->first()
+ 8 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(19): Myth\Auth\Authentication\LocalAuthenticator->validate([...], true)
+ 9 VENDORPATH\myth\auth\src\Controllers\AuthController.php(87): Myth\Auth\Authentication\LocalAuthenticator->attempt([...], false)
+10 SYSTEMPATH\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->attemptLogin()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+INFO - 2023-07-17 02:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 02:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 02:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 02:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 02:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 02:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 02:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 02:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 02:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 02:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 02:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 02:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 07:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 07:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 07:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 07:29:29 --> include(D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\composer/../myth/auth/src/Filters/LoginFilter.php): Failed to open stream: No such file or directory
+in VENDORPATH\composer\ClassLoader.php on line 582.
+ 1 VENDORPATH\composer\ClassLoader.php(582): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\vendor\\composer/../myth/auth/src/Filters/LoginFilter.php): Failed to open stream: No such file or directory', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\vendor\\composer\\ClassLoader.php', 582)
+ 2 VENDORPATH\composer\ClassLoader.php(582): include()
+ 3 VENDORPATH\composer\ClassLoader.php(433): Composer\Autoload\{closure}('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\vendor\\composer/../myth/auth/src/Filters/LoginFilter.php')
+ 4 SYSTEMPATH\Filters\Filters.php(166): Composer\Autoload\ClassLoader->loadClass('Myth\\Auth\\Filters\\LoginFilter')
+ 5 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('datasiswa', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-17 07:34:37 --> include(D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\composer/../myth/auth/src/Filters/LoginFilter.php): Failed to open stream: No such file or directory
+in VENDORPATH\composer\ClassLoader.php on line 582.
+ 1 VENDORPATH\composer\ClassLoader.php(582): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\vendor\\composer/../myth/auth/src/Filters/LoginFilter.php): Failed to open stream: No such file or directory', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\vendor\\composer\\ClassLoader.php', 582)
+ 2 VENDORPATH\composer\ClassLoader.php(582): include()
+ 3 VENDORPATH\composer\ClassLoader.php(433): Composer\Autoload\{closure}('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\vendor\\composer/../myth/auth/src/Filters/LoginFilter.php')
+ 4 SYSTEMPATH\Filters\Filters.php(166): Composer\Autoload\ClassLoader->loadClass('Myth\\Auth\\Filters\\LoginFilter')
+ 5 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('datasiswa', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-17 07:37:09 --> include(D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\composer/../myth/auth/src/Filters/LoginFilter.php): Failed to open stream: No such file or directory
+in VENDORPATH\composer\ClassLoader.php on line 582.
+ 1 VENDORPATH\composer\ClassLoader.php(582): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\vendor\\composer/../myth/auth/src/Filters/LoginFilter.php): Failed to open stream: No such file or directory', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\vendor\\composer\\ClassLoader.php', 582)
+ 2 VENDORPATH\composer\ClassLoader.php(582): include()
+ 3 VENDORPATH\composer\ClassLoader.php(433): Composer\Autoload\{closure}('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\vendor\\composer/../myth/auth/src/Filters/LoginFilter.php')
+ 4 SYSTEMPATH\Filters\Filters.php(166): Composer\Autoload\ClassLoader->loadClass('Myth\\Auth\\Filters\\LoginFilter')
+ 5 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('datasiswa', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-17 07:40:04 --> include(D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\composer/../myth/auth/src/Filters/LoginFilter.php): Failed to open stream: No such file or directory
+in VENDORPATH\composer\ClassLoader.php on line 582.
+ 1 VENDORPATH\composer\ClassLoader.php(582): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\vendor\\composer/../myth/auth/src/Filters/LoginFilter.php): Failed to open stream: No such file or directory', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\vendor\\composer\\ClassLoader.php', 582)
+ 2 VENDORPATH\composer\ClassLoader.php(582): include()
+ 3 VENDORPATH\composer\ClassLoader.php(433): Composer\Autoload\{closure}('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\vendor\\composer/../myth/auth/src/Filters/LoginFilter.php')
+ 4 SYSTEMPATH\Filters\Filters.php(166): Composer\Autoload\ClassLoader->loadClass('Myth\\Auth\\Filters\\LoginFilter')
+ 5 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('datasiswa', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-17 07:41:12 --> include(D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\composer/../myth/auth/src/Filters/LoginFilter.php): Failed to open stream: No such file or directory
+in VENDORPATH\composer\ClassLoader.php on line 582.
+ 1 VENDORPATH\composer\ClassLoader.php(582): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\vendor\\composer/../myth/auth/src/Filters/LoginFilter.php): Failed to open stream: No such file or directory', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\vendor\\composer\\ClassLoader.php', 582)
+ 2 VENDORPATH\composer\ClassLoader.php(582): include()
+ 3 VENDORPATH\composer\ClassLoader.php(433): Composer\Autoload\{closure}('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\vendor\\composer/../myth/auth/src/Filters/LoginFilter.php')
+ 4 SYSTEMPATH\Filters\Filters.php(166): Composer\Autoload\ClassLoader->loadClass('Myth\\Auth\\Filters\\LoginFilter')
+ 5 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('datasiswa', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-17 07:42:00 --> include(D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\composer/../myth/auth/src/Filters/LoginFilter.php): Failed to open stream: No such file or directory
+in VENDORPATH\composer\ClassLoader.php on line 582.
+ 1 VENDORPATH\composer\ClassLoader.php(582): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\vendor\\composer/../myth/auth/src/Filters/LoginFilter.php): Failed to open stream: No such file or directory', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\vendor\\composer\\ClassLoader.php', 582)
+ 2 VENDORPATH\composer\ClassLoader.php(582): include()
+ 3 VENDORPATH\composer\ClassLoader.php(433): Composer\Autoload\{closure}('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\vendor\\composer/../myth/auth/src/Filters/LoginFilter.php')
+ 4 SYSTEMPATH\Filters\Filters.php(166): Composer\Autoload\ClassLoader->loadClass('Myth\\Auth\\Filters\\LoginFilter')
+ 5 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('datasiswa', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
+CRITICAL - 2023-07-17 07:43:57 --> include(D:\DATA C\Dekstop\CodeIgniter\Regist2023\siswa\vendor\composer/../myth/auth/src/Filters/LoginFilter.php): Failed to open stream: No such file or directory
+in VENDORPATH\composer\ClassLoader.php on line 582.
+ 1 VENDORPATH\composer\ClassLoader.php(582): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\vendor\\composer/../myth/auth/src/Filters/LoginFilter.php): Failed to open stream: No such file or directory', 'D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\vendor\\composer\\ClassLoader.php', 582)
+ 2 VENDORPATH\composer\ClassLoader.php(582): include()
+ 3 VENDORPATH\composer\ClassLoader.php(433): Composer\Autoload\{closure}('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\vendor\\composer/../myth/auth/src/Filters/LoginFilter.php')
+ 4 SYSTEMPATH\Filters\Filters.php(166): Composer\Autoload\ClassLoader->loadClass('Myth\\Auth\\Filters\\LoginFilter')
+ 5 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('datasiswa', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\DATA C\\Dekstop\\CodeIgniter\\Regist2023\\siswa\\public\\index.php')
