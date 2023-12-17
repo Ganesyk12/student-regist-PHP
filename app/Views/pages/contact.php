@@ -60,13 +60,11 @@
             </div>
          </div>
          <!-- Col 2 -->
-         <div class="col-md-auto" style="width: 840px;">
+         <div class="col-md-auto" style="width: 800px;">
             <div class="card-header" style="background-color:dodgerblue;">
                <a class="table" style="color: white; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">MAPS</a>
             </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.135178577815!2d107.00128947423337!3d-6.24591096115644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698c299f941a53%3A0xca5b3ba0cb4d111d!2sSDN%20Margahayu%20II%2C%20VIII%2C%20XVI%2C%20XX!5e0!3m2!1sid!2sid!4v1689154387941!5m2!1sid!2sid" width="815" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-         </div>
-      </div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7932.270280806484!2d107.003864!3d-6.245916!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698c299f941a53%3A0xca5b3ba0cb4d111d!2sSDN%20Margahayu%20II%2C%20VIII%2C%20XVI%2C%20XX!5e0!3m2!1sid!2sid!4v1695167416859!5m2!1sid!2sid" width="770" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>      </div>
    </div>
 </div>
 <?= $this->endSection(); ?>

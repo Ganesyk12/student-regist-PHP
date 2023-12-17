@@ -11,9 +11,10 @@
 
 <body>
    <div class="container-fluid">
-      <div class="col md-8 mx-auto">
-         <h2>Data Siswa </h2>
-         <a href="<?php echo site_url('print') ?>">
+      <div class="col md-3 mx-auto">	
+        <h2 style="text-align:center">
+		Data Siswa Baru</h2>
+        <a href="<?php echo site_url('print') ?>">
             Download PDF
          </a>
       </div>
@@ -21,18 +22,18 @@
          <thead>
             <tr bgcolor=lightgray align=center>
 
-               <td width="10%">No</td>
-               <td width="25%">Tahun Ajaran</td>
-               <td width="30%">Nama</td>
-               <td width="20%">Tempat Lahir</td>
-               <td width="25%">Tanggal Lahir</td>
-               <td width="20%">Jenis Kelamin</td>
-               <td width="20%">Agama</td>
-               <td width="20%">Alamat</td>
+               <td width="5%">No</td>
+               <td width="10%">Tahun Ajaran</td>
+               <td width="25%">Nama</td>
+               <td width="15%">Tempat Lahir</td>
+               <td width="12%">Tanggal Lahir</td>
+               <td width="10%">Jenis Kelamin</td>
+               <td width="10%">Agama</td>
+               <td width="25%">Alamat</td>
                <td width="20%">Anak Urut</td>
                <td width="20%">Jumlah Saudara</td>
                <td width="20%">No. Telepon</td>
-               <td width="20%">Nama Orangtua</td>
+               <td width="30%">Nama Orangtua</td>
                <td width="20%">Pekerjaan Orangtua</td>
                <td width="20%">Alamat Orangtua</td>
             </tr>

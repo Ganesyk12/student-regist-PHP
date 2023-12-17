@@ -80,7 +80,7 @@
     <div class="card-hidden">
         <div class="row">
             <div class="col-md-auto mb-3">
-                <div class="card" style="width: 440px;">
+                <div class="card" style="width: 400px;">
                     <div class="card-header" style="background-color:dodgerblue;">
                         <a class="table" style="color: white; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">IDENTITAS SEKOLAH</a>
                     </div>

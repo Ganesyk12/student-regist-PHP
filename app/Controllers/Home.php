@@ -14,7 +14,7 @@ class Home extends BaseController
     public function index()
     {
         $data = [
-            'title' => 'Dashboard | Kel 2'
+            'title' => 'Dashboard'
         ];
         echo view('layouts/components/navigation');
         return view('pages/dashboard', $data);
@@ -22,7 +22,7 @@ class Home extends BaseController
     public function home()
     {
         $data = [
-            'title' => 'Home | Kel 2'
+            'title' => 'Home'
         ];
         echo view('layouts/components/homenav');
         return view('pages/home', $data);
@@ -31,7 +31,7 @@ class Home extends BaseController
     {
         $siswa = $this->modelSiswa->findAll();
         $data = [
-            'title' => 'Pengumuman | Kel 2',
+            'title' => 'Pengumuman',
             'siswa' => $siswa
         ];
         echo view('layouts/components/navigation');
@@ -40,7 +40,7 @@ class Home extends BaseController
     public function contact()
     {
         $data = [
-            'title' => 'Contact Me | Kel 2'
+            'title' => 'Contact Me'
         ];
         echo view('layouts/components/navigation');
         return view('pages/contact', $data);
@@ -48,7 +48,7 @@ class Home extends BaseController
     public function info()
     {
         $data = [
-            'title' => 'How To | Kel 2'
+            'title' => 'How To'
         ];
         echo view('layouts/components/navigation');
         return view('pages/howto', $data);
@@ -56,7 +56,7 @@ class Home extends BaseController
     public function success()
     {
         $data = [
-            'title' => 'Successfuly | Kel 2'
+            'title' => 'Successfuly'
         ];
         return view('pages/successfuly', $data);
     }

@@ -75,14 +75,14 @@
         </div>
     </div>
 
-
+<br>
     <!-- Footer -->
-    <footer class="sticky-footer bg-white">
+    <footer class="sticky-footer bg-warning">
         <div class="container my-auto">
             <div class="copyright text-center my-auto" style="font-size: large; font-family:'Times New Roman', Times, serif; color:black">
-                <span>Website Penerimaan Peserta Didik SDN Margahayu VIII Kota Bekasi <br>
+                <span>Template Website Penerimaan Peserta Didik SDN Margahayu VIII Kota Bekasi<br>
                     Tahun Ajaran 2023 / 2024</span> <br><br>
-                <span>Copyright &copy; Kel2_6BP <?= Date('Y') ?> </span>
+                <span>Copyright Kel.2-6BP &copy; Universitas Bani Saleh <?= Date('Y') ?> </span>
             </div>
         </div>
     </footer>
