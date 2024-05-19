@@ -1,7 +1,6 @@
 <p align="center"><a href="https://codeigniter.com" target="_blank"><img src="https://www.codeigniter.com/user_guide/_static/ci-logo-text.svg" width="400" alt="Codeigniter Logo"></a></p>
 
-# CodeIgniter 4 Application - Student Regist Web Apps
-
+# CodeIgniter <sup>4</sup> Application - Student Regist Web Apps
 [![PHPUnit](https://github.com/codeigniter4/CodeIgniter4/workflows/PHPUnit/badge.svg)](https://github.com/codeigniter4/CodeIgniter4/actions/workflows/test-phpunit.yml)
 [![PHPStan](https://github.com/codeigniter4/CodeIgniter4/actions/workflows/test-phpstan.yml/badge.svg)](https://github.com/codeigniter4/CodeIgniter4/actions/workflows/test-phpstan.yml)
 [![Psalm](https://github.com/codeigniter4/CodeIgniter4/actions/workflows/test-psalm.yml/badge.svg)](https://github.com/codeigniter4/CodeIgniter4/actions/workflows/test-psalm.yml)
@@ -17,7 +16,6 @@
 
 CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
 More information can be found at the [official site](https://codeigniter.com).
-
 This repository holds a composer-installable app starter.
 It has been built from the
 [development repository](https://github.com/codeigniter4/CodeIgniter4).
@@ -30,9 +28,7 @@ The user guide corresponding to the latest version of the framework can be found
 ## Installation & updates
 
 `composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
-
-When updating, check the release notes to see if there are any changes you might need to apply
+there is a new release of the framework. When updating, check the release notes to see if there are any changes you might need to apply
 to your `app` folder. The affected files can be copied or merged from
 `vendor/codeigniter4/framework/app`.
 
@@ -77,3 +73,13 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - json (enabled by default - don't turn it off)
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
 - [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+
+## Screenshots
+- Home
+  <img src="https://i.ibb.co/kyvht3B/Screenshot-5.png" alt="Screenshot-5" border="0">
+- Dashboard
+  <img src="https://i.ibb.co/zm9KSDT/Screenshot-6.png" alt="Screenshot-6" border="0">
+- Form
+  <img src="https://i.ibb.co/bgXwnR4/Screenshot-8.png" alt="Screenshot-8" border="0">
+- Database
+  <img src="https://i.ibb.co/pR6C3sw/Screenshot-13.png" alt="Screenshot-13" border="0">
