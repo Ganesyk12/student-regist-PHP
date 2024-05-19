@@ -13,7 +13,6 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 apps.sql
 .env
 .vscode
-apps.sql
 
 #codeigniter 3
 application/logs/*
